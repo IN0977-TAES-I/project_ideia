@@ -30,8 +30,12 @@
 - Q1. Introdução de nova camada de Avalidador como Juiz, eficiente e rápido é melhor do que as soluções propostas
 - Q2. Inclusão de análise de contexto usando MLC  melhora, piorar ou indiferente, na deteção de conflito semântico?
 - Q3. Uso de raciocínio em LLM, contribuiu, na deteção de conflito semântico:
-  - Como identificar o movimento de mudanças do código para atencipar conflito 
-
+  - Como identificar o movimento de mudanças do código para atencipar conflito
+    
+ # Conjunto de Dados
+- [Ad-Hoc Java Merge Scenaries Dataset]()
+- [Merge Dataset](https://github.com/spgroup/mergedataset/tree/master)
+  
 # Referências de Tecnologias
   - Avaliador de LLM
     - JEV https://arxiv.org/abs/2609.29769
@@ -52,4 +56,15 @@
   - Visualization
     - [Oil-Git](https://oil-oil.github.io/oil-git/)
     - [Architecture Diagram Generator](https://github.com/Cocoon-AI/architecture-diagram-generator)
- # Conjunto de Dados
+
+
+# Articles
+## JEV
+## 
+## Análise Estática
+- [Comparing Static Analyses for Improved Semantic Conflict Detection](https://spgroup.github.io/papers/interference-static-analyses-comparison.html)
+- [The Impact of Static Analysis Depth Limit on Semantic Conflict Detection](https://cbsoft.sbc.org.br/2026/data/papers/sbes/The%20Impact%20of%20Static%20Analysis%20Depth%20Limit%20on%20Semantic%20Conflict%20Detection.pdf)
+- [Refilter]()
+## LLM
+- [SMAT]()
+- [MergeGen]()
